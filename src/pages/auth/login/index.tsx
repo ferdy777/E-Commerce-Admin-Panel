@@ -64,6 +64,21 @@ const LoginScreen = () => {
               {error}
             </div>
           )}
+          <div className="p-4 rounded-lg bg-primary/5 border border-primary/20 mb-4">
+            <Typography
+              variant="body-x-small"
+              className="text-black font-medium leading-relaxed"
+            >
+              For the sake of this demo, kindly use the following credentials:
+              <br />
+              <span className="block mt-2">
+                Email: <strong>john@mail.com</strong>
+              </span>
+              <span className="block">
+                Password: <strong>changeme</strong>
+              </span>
+            </Typography>
+          </div>
 
           <Form
             className="max-w-[500px] mx-auto"
